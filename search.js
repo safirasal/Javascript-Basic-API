@@ -38,7 +38,11 @@ app.post("/search", (request, response) => {
         found
     })
 })
-
+/*
+{
+    "keyword" : "Surabaya"
+}
+*/
 app.listen(8000, () => {
     console.log(`Server run on port 8000`);
 })
